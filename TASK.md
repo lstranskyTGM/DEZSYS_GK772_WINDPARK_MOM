@@ -80,7 +80,8 @@ Demo 2 beinhaltet eine Implementierung, die eine Umsetzung von JMS mit Springboo
 
  *   Anforderungen **"zur Gänze erfüllt"**
 	 *   Implementierung der Kommunikation mit **MEHREREN** Windkraftanlage und dem Parkrechner  
-	 *   Rückmeldung des Ergebnisses der Übertragung vom Parkrechner an die Windkraftanlage (JMS Topic)  
+	 *   Rückmeldung des Ergebnisses der Übertragung vom Parkrechner an die Windkraftanlage (JMS Topic) 
+	 *   Logging der Daten bei allen Windkraftanlagen und dem Parkrechner
 
 ## 1.6 Fragestellung für Protokoll
 

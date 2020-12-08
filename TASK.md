@@ -7,7 +7,7 @@ Diese Übung soll die Funktionsweise und Implementierung von eine Message Orient
 
 Die Umsetzung basiert auf einem praxisnahen Beispiel einer Windkraftanalage. Ein Windkraftanalage (Windrad) ist immer Teil eines Verbunds, genannt Windpark. Jede Windkraftanlage beinhaltet einen Rechner, der die Daten der Windkraftanalage aufzeichnet und diese steuern kann. Die Daten werden als REST Schnittstelle in XML oder JSON zur Verfügung gestellt. Die Daten aller Windkraftanlagen eines Windparks werden von einem Parkrechner gesammelt und abgespeichert. Der Parkrechner kommuniziert mit dem Rechenzentrum in der Zentrale. Eine Zentrale kommuniziert mit mehreren Windparks und steuert diese.
 
-![Architektur Windpark](https://elearning.tgm.ac.at/pluginfile.php/225788/mod_resource/content/1/dezsys_windpark.png)
+![Architektur Windpark](dezsys_windpark.png)
 
 ## 1.1 Ziele  
 

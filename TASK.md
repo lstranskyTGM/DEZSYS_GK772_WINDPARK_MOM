@@ -76,18 +76,18 @@ Demo 2 beinhaltet eine Implementierung, die eine Umsetzung von JMS mit Springboo
 *   Gruppengrösse: 1 Person
 *   Abgabemodus: per Protokoll, bei EK kann ein Abgabegespraech erforderlich sein
 *   Anforderungen **"überwiegend erfüllt"**
-  *   Implementierung der Kommunikation zwischen **EINER** Windkraftanlage und dem Parkrechner (JMS Queue)  
-  *   Ausgabe der empfangenen Daten am Parkrechner (Konsole oder Log-Datei)
-  *   Beantwortung der Fragestellungen   
+    *   Implementierung der Kommunikation zwischen **EINER** Windkraftanlage und dem Parkrechner (JMS Queue)  
+    *   Ausgabe der empfangenen Daten am Parkrechner (Konsole oder Log-Datei)
+    *   Beantwortung der Fragestellungen   
 *   Anforderungen **"zur Gänze erfüllt"**
-  *   Temporaeres Speichern der Daten am Parkrechner zur Laufzeit (neue Datensaetze sollten immer angefuegt werden)
-  *   Zusammensetzung der Daten aller Windkraftanlagen in eine zentrale JSON/XML-Struktur
-  *   Implementierung der REST Schnittstelle am Parkrechner
+    *   Temporaeres Speichern der Daten am Parkrechner zur Laufzeit (neue Datensaetze sollten immer angefuegt werden)
+    *   Zusammensetzung der Daten aller Windkraftanlagen in eine zentrale JSON/XML-Struktur
+    *   Implementierung der REST Schnittstelle am Parkrechner
 *  Erweiterte Anforderungen **überwiegend erfüllt**
-  *   Implementierung der Kommunikation mit **MEHREREN** Windkraftanlage und dem Parkrechner
-  *   Logging der Daten bei allen Windkraftanlagen und dem Parkrechner   
+    *   Implementierung der Kommunikation mit **MEHREREN** Windkraftanlage und dem Parkrechner
+    *   Logging der Daten bei allen Windkraftanlagen und dem Parkrechner   
 *  Erweiterte Anforderungen **zur Gänze erfüllt**
-  *   Rückmeldung des Ergebnisses der Übertragung vom Parkrechner an die Windkraftanlage (JMS Topic)  
+    *   Rückmeldung des Ergebnisses der Übertragung vom Parkrechner an die Windkraftanlage (JMS Topic)  
 
 ## 1.6 Fragestellung für Protokoll
 

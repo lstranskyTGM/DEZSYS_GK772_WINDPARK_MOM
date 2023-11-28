@@ -32,10 +32,7 @@ public class MOMApplication implements CommandLineRunner  {
 			flag = arg;
 		}
 		
-		if ( flag.toLowerCase().equals("sender") )
-			new MOMSender();
-		else
-			new MOMReceiver();
+
 
 	}
 

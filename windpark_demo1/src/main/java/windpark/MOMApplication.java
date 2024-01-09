@@ -32,8 +32,11 @@ public class MOMApplication implements CommandLineRunner  {
 			flag = arg;
 		}
 		
-
+		new MOMReceiver();
 
 	}
 
 }
+
+
+
